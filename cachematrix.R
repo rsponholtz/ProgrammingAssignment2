@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions together create a matrix that caches the inverse matrix if it is calculated.  Then 
+##  it returns the cached inverse rather than calculating a new one if needed.
+##  this, of course, improves performance at the expense of some memory usage
 
 ## This function creates a matrix which will cache the inverse(if calculated)
 ##   Parameters
